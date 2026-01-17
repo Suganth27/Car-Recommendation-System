@@ -10,7 +10,7 @@ Choosing the right car is challenging due to the vast number of available option
 
 This project solves that problem by allowing users to search for cars using **free text queries**, such as:
 - “Affordable sports car with good performance”.
-- “Electric SUV for family use”.
+- “Diesel SUV for family use”.
 - “Luxury car with high horsepower”.
 
 The system interprets user intent and returns **ranked, relevant car recommendations** through a modern, interactive web interface.
