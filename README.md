@@ -112,8 +112,8 @@ The dataset is a structured CSV file containing:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/ai-car-recommendation-system.git
-cd ai-car-recommendation-system
+git clone https://github.com/Suganth27/Car-Recommendation-System.git
+cd car-recommendation-system
 ```
 ### 2️⃣ Create and Activate Virtual Environment
 ```bash
