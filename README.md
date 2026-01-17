@@ -52,15 +52,24 @@ This project uses a **hybrid recommendation approach**:
 ## 📊 Dataset
 
 The dataset is a structured CSV file containing:
-- Company name
-- Car name
-- Price
-- Fuel type
-- Engine specifications
-- Horsepower
-- Seating capacity
-- Speed
-- Description text
+
+| Column Name        | Description                                   |
+|--------------------|-----------------------------------------------|
+| Company Name       | Manufacturer of the car                       |
+| Car Name           | Model name of the car                         |
+| Price              | Price of the car                              |
+| Fuel Type          | Type of fuel used (Petrol/Diesel/Electric)    |
+| Engine Specs       | Engine configuration and displacement details |
+| Horsepower         | Engine power output                           |
+| Seating Capacity   | Number of passengers supported                |
+| Speed              | Maximum speed of the car                      |
+| Description Text   | Additional descriptive information about car  |
+
+### Sample Record
+
+| Company Name | Car Name | Price  | Fuel Type | Engine Specs | Horsepower | Seating Capacity | Speed   | Description Text |
+|--------------|----------|--------|-----------|--------------|------------|------------------|---------|------------------|
+| Toyota       | Corolla  | $16.6k | Petrol    | 1798cc I4    | 138 HP     | 5                | 180km/h | Reliable sedan   |
 
 > Recommendation quality depends on dataset completeness and accuracy.
 
