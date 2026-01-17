@@ -107,3 +107,18 @@ The dataset is a structured CSV file containing:
 ```bash
 git clone https://github.com/your-username/ai-car-recommendation-system.git
 cd ai-car-recommendation-system
+```
+### 2️⃣ Create and Activate Virtual Environment
+```bash
+python -m venv env
+env\Scripts\activate   # Windows
+```
+###3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+###4️⃣ Run the Application
+```bash
+open the notebook:
+jupyter notebook
+```
