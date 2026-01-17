@@ -1,4 +1,4 @@
-# <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-car"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" /></svg> Car Recommendation System
+#  Car Recommendation System
 
 An intelligent car recommendation system that understands **natural language user queries** and recommends suitable cars using a **hybrid AI approach** combining traditional machine learning, semantic embeddings and large language models.
 
@@ -8,10 +8,10 @@ An intelligent car recommendation system that understands **natural language use
 
 Choosing the right car is challenging due to the vast number of available options and complex user preferences. Most existing platforms rely on rigid filters that fail to capture user intent expressed in natural language.
 
-This project solves that problem by allowing users to search for cars using **free-text queries**, such as:
-- “Affordable sports car with good performance”
-- “Electric SUV for family use”
-- “Luxury car with high horsepower”
+This project solves that problem by allowing users to search for cars using **free text queries**, such as:
+- “Affordable sports car with good performance”.
+- “Electric SUV for family use”.
+- “Luxury car with high horsepower”.
 
 The system interprets user intent and returns **ranked, relevant car recommendations** through a modern, interactive web interface.
 
@@ -19,11 +19,11 @@ The system interprets user intent and returns **ranked, relevant car recommendat
 
 ## 🎯 Objectives
 
-- Enable natural language–based car search
-- Understand semantic user intent
-- Recommend and rank cars using similarity scores
-- Provide a clean, modern, dark-themed web UI
-- Demonstrate a real-world AI recommendation pipeline
+- Enable natural language based car search.
+- Understand semantic user intent.
+- Recommend and rank cars using similarity scores.
+- Provide a clean, modern, dark themed web UI.
+- Demonstrate a real world AI recommendation pipeline.
 
 ---
 
@@ -31,21 +31,21 @@ The system interprets user intent and returns **ranked, relevant car recommendat
 
 This project uses a **hybrid recommendation approach**:
 
-- **TF-IDF Vectorization** – keyword-based similarity
-- **Sentence Transformers (all-MiniLM-L6-v2)** – semantic similarity
-- **Cosine Similarity** – ranking recommendations
-- **Flan-T5 (LLM)** – explanation and interpretability
+- **TF-IDF Vectorization** – keyword based similarity.
+- **Sentence Transformers (all-MiniLM-L6-v2)**  semantic similarity.
+- **Cosine Similarity** – ranking recommendations.
+- **Flan-T5 (LLM)** – explanation and interpretability.
 - **Gradio** – interactive web-based UI
 
 ---
 
 ## 🏗️ System Architecture (High-Level)
 
-1. User enters a natural language query  
-2. Query is converted into vector representations  
-3. Similarity is computed against car descriptions  
-4. Scores are combined and ranked  
-5. Results are displayed via a web interface  
+1. User enters a natural language query.
+2. Query is converted into vector representations.
+3. Similarity is computed against car descriptions. 
+4. Scores are combined and ranked.
+5. Results are displayed via a web interface.
 
 ---
 
@@ -61,7 +61,6 @@ The dataset is a structured CSV file containing:
 - Seating capacity
 - Speed
 - Description text
-- (Optional) Image URLs
 
 > Recommendation quality depends on dataset completeness and accuracy.
 
@@ -71,32 +70,31 @@ The dataset is a structured CSV file containing:
 
 - **Qualitative evaluation** (no labeled ground truth)
 - Manual inspection of:
-  - Relevance of recommendations
-  - Semantic alignment with user intent
-  - Consistency across similar queries
+  - Relevance of recommendations.
+  - Semantic alignment with user intent.
+  - Consistency across similar queries.
 
 ---
 
 ## 🌐 Web Interface
 
-- Built using **Gradio**
-- Dark-themed, modern UI
-- Natural language input
-- Ranked recommendations with similarity scores
-- Optional display of car images
+- Built using **Gradio**.
+- Dark-themed, modern UI.
+- Natural language input.
+- Ranked recommendations with similarity scores.
+- [![Launch Screen](https://raw.githubusercontent.com/Suganth27/Car-Recommendation-System/main/Web%20Interface/Web%20Interface%20when%20launched.png)](https://github.com/Suganth27/Car-Recommendation-System)
+
+- [![Search Query Screen](https://raw.githubusercontent.com/Suganth27/Car-Recommendation-System/main/Web%20Interface/Web%20Interface%20when%20search%20query%20is%20initiated.png)](https://github.com/Suganth27/Car-Recommendation-System)
+
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- Python  
-- Pandas  
-- Scikit-learn  
-- Sentence-Transformers  
+- Python [Pandas, Scikit Learn, Gradio, Pytorch] 
+- Sentence Transformers  
 - Hugging Face Transformers  
-- Flan-T5  
-- Gradio  
-- PyTorch  
+- Flan-T5    
 - Jupyter Notebook  
 
 ---
@@ -139,10 +137,10 @@ jupyter notebook
 ---
 
 ## ⚖️ Ethical Considerations
-- No personal or demographic user data is collected
-- Recommendations are for informational purposes only
-- Potential dataset bias is acknowledged
-- Transparent similarity-based ranking is used
+- No personal or demographic user data is collected.
+- Recommendations are for informational purposes only.
+- Potential dataset bias is acknowledged.
+- Transparent similarity based ranking is used.
 
 ---
 
