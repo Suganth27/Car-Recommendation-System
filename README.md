@@ -1,4 +1,6 @@
-# 🚗 AI-Powered Car Recommendation System
+# <span class="material-icons-outlined">
+car_crash
+</span> Car Recommendation System
 
 An intelligent car recommendation system that understands **natural language user queries** and recommends suitable cars using a **hybrid AI approach** combining traditional machine learning, semantic embeddings, and large language models.
 
@@ -113,12 +115,46 @@ cd ai-car-recommendation-system
 python -m venv env
 env\Scripts\activate   # Windows
 ```
-###3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-###4️⃣ Run the Application
+### 4️⃣ Run the Application
 ```bash
 open the notebook:
 jupyter notebook
 ```
+
+--- 
+
+## 📂 Project Structure
+```bash
+├── data/
+│   └── cars.csv
+├── app.py / notebook.ipynb
+├── requirements.txt
+├── README.md
+└── assets/
+    └── screenshots/
+```
+
+---
+
+## ⚖️ Ethical Considerations
+- No personal or demographic user data is collected
+- Recommendations are for informational purposes only
+- Potential dataset bias is acknowledged
+- Transparent similarity-based ranking is used
+
+---
+
+## 👤 Author
+```bash
+Suganth S
+Minor in Artificial Intelligence
+```
+---
+
+## 📜 License
+
+This project is intended for academic and educational purposes only.
