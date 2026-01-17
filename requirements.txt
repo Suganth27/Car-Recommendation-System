@@ -1,0 +1,10 @@
+transformers
+sentence-transformers
+scikit-learn
+pandas
+numpy
+torch
+gradio
+matplotlib
+seaborn
+sentencepiece
